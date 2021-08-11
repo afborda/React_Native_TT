@@ -18,14 +18,11 @@ const Login = () => {
       senha,
     };
 
-    navigation.navigate("Home");
-
-    alert(data.email);
+    navigation.navigate("Home", data);
   };
   return (
     <Container>
       <Containerform>
-        <Text>Login</Text>
         <CustomInput
           id="email"
           placeholder="Informe seu Email"
