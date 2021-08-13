@@ -18,7 +18,7 @@ const Login = () => {
       senha,
     };
 
-    navigation.navigate("Home", data);
+    navigation.navigate("Tab");
   };
   return (
     <Container>

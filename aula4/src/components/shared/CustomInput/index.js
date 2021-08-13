@@ -15,6 +15,7 @@ const CustomInput = ({
       <Input
         id={id}
         onChangeText={(e) => setValue(e)}
+        placeholder={placeholder}
         secureTextEntry={secureTextEntry}
         {...props}
       />

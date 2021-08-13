@@ -7,8 +7,7 @@ import TabNavigator from "./routers/MainTab";
 const App = () => {
   return (
     <NavigationContainer>
-      {/* <StackNavigator /> */}
-      <TabNavigator />
+      <StackNavigator />
     </NavigationContainer>
   );
 };

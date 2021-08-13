@@ -31,17 +31,17 @@ const TabNavigator = () => {
       })}
     >
       <Tab.Screen
-        options={{ tabBarLabel: "Home" }}
+        options={{ tabBarLabel: "Home", headerShown: false }}
         name="TabHome"
         component={Home}
       />
       <Tab.Screen
-        options={{ tabBarLabel: "Sobre" }}
+        options={{ tabBarLabel: "Sobre", headerShown: false }}
         name="TabSobre"
         component={Sobre}
       />
       <Tab.Screen
-        options={{ tabBarLabel: "Sobre2" }}
+        options={{ tabBarLabel: "Sobre2", headerShown: false }}
         name="TabSobre2"
         component={Sobre}
       />
