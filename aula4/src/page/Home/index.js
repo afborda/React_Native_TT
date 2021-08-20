@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Text, TouchableOpacity, Button } from "react-native";
 
 import { Container, Containerform } from "./styled";
-import { useRoute } from "@react-navigation/core";
 import GetMovies from "../../service/GetData";
 import CustomModal from "../../components/CustomModal";
 
