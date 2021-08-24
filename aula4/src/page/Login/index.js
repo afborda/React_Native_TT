@@ -18,7 +18,7 @@ const Login = () => {
       senha,
     };
 
-    navigation.navigate("Tab");
+    navigation.reset({ routes: [{ name: "Tab" }] });
   };
   return (
     <Container>

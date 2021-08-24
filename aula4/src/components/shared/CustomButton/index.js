@@ -13,7 +13,7 @@ const CustomButton = ({
   return (
     <Button onPress={onPress} disabled={disabled} {...props}>
       <TextButton>
-        {loading ? <ActivityIndicator size="large" color="#000" /> : Text}
+        {loading ? <ActivityIndicator size="large" color="#fff" /> : Text}
       </TextButton>
     </Button>
   );
